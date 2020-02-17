@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    ["inline-import", { "extensions": [".css"] }],
+    ["import", { "libraryName": "antd" }],
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }]
+  ],
+  "presets": ["next/babel"],
+  "ignore": []
+}

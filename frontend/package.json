@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "antd": "^3.25.1",
+    "babel-plugin-import": "^1.12.2",
+    "babel-plugin-inline-import": "^3.0.0",
+    "date-fns": "^2.9.0",
+    "decko": "^1.2.0",
+    "formik": "^2.0.6",
+    "isomorphic-fetch": "^2.2.1",
+    "jwt-decode": "^2.2.0",
+    "mobx": "^5.15.0",
+    "mobx-react": "^6.1.4",
+    "net": "^1.0.2",
+    "next": "9.1.3",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "socket.io-client": "^2.3.0",
+    "sockjs-client": "^1.4.0",
+    "stompjs": "^2.3.3",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4"
+  }
+}
